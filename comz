@@ -1,0 +1,217 @@
+
+% math operators
+\DeclareMathOperator{\var}{var}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\dif}{d\!}
+\DeclareMathOperator{\Prob}{Prob}
+
+\usepackage{tikz}
+% this is a big circle
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+		\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+	% this is a small circle
+%	\newcommand*{\circled}[1]{\lower.7ex\hbox{\tikz\draw (0pt, 0pt)%
+%			circle (.5em) node {\makebox[1em][c]{\small #1}};}}
+
+% \begin{enumerate}[label=\circled{\arabic*}]
+
+\newcommand{\ba}{\begin{array}}
+\newcommand{\ea}{\end{array}}
+\newcommand{\be}{\begin{displaymath}}
+\newcommand{\ee}{\end{displaymath}}
+\newcommand{\ben}{\begin{equation}}
+\newcommand{\een}{\end{equation}}
+\newcommand{\bena}{\begin{eqnarray}}
+\newcommand{\eena}{\end{eqnarray}}
+\newcommand{\beqa}{\begin{align}}
+\newcommand{\eeqa}{\end{align}}
+\newcommand{\bg}{\begin{gather}}
+\newcommand{\eg}{\end{gather}}
+%\newcommand{\implies}{\Rightarrow}
+\newcommand{\f}{\frac}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\benu}{\begin{enumerate}}
+\newcommand{\eenu}{\end{enumerate}}
+\newcommand{\bdes}{\begin{description}}
+\newcommand{\edes}{\end{description}}
+\newcommand{\bt}{\begin{tabular}}
+\newcommand{\et}{\end{tabular}}
+\newcommand{\vs}{\vspace}
+\newcommand{\hs}{\hspace}
+
+% convenient symbols
+\newcommand \thetabf{\boldsymbol{\theta}}
+\newcommand \Phibf {\boldsymbol{\Phi}}
+\newcommand \Psibf{\boldsymbol{\Psi}}
+\newcommand \alphabf{\boldsymbol{\alpha}}
+\newcommand \betabf{\boldsymbol{\beta}}
+\newcommand \gammabf{\boldsymbol{\gamma}}
+\newcommand \deltabf{\boldsymbol{\delta}}
+\newcommand \epsilonbf{\boldsymbol{\epsilon}}
+\newcommand \varepsilonbf{\boldsymbol{\varepsilon}}
+\newcommand \zetabf{\boldsymbol{\zeta}}
+\newcommand \etabf{\boldsymbol{\eta}}
+\newcommand \iotabf{\boldsymbol{\iota}}
+\newcommand \kappabf{\boldsymbol{\kappa}}
+\newcommand \lambdabf{\boldsymbol{\lambda}}
+\newcommand \mubf{\boldsymbol{\mu}}
+\newcommand \nubf{\boldsymbol{\nu}}
+\newcommand \xibf{\boldsymbol{\xi}}
+\newcommand \pibf{\boldsymbol{\pi}}
+\newcommand \rhobf{\boldsymbol{\rho}}
+\newcommand \sigmabf{\boldsymbol{\signma}}
+\newcommand \taubf{\boldsymbol{\tau}}
+\newcommand \upsilonbf{\boldsymbol{\upsilon}}
+\newcommand \phibf{\boldsymbol{\phi}}
+\newcommand \varphibf{\boldsymbol{\varphi}}
+\newcommand \chibf{\boldsymbol{\chi}}
+\newcommand \psibf{\boldsymbol{\psi}}
+\newcommand \omegabf{\boldsymbol{\omega}}
+\newcommand \Sigmabf{\boldsymbol{\Sigma}}
+\newcommand \Upsilonbf{\boldsymbol{\Upsilon}}
+\newcommand \Omegabf{\boldsymbol{\Omega}}
+\newcommand \Deltabf{\boldsymbol{\Delta}}
+\newcommand \Gammabf{\boldsymbol{\Gamma}}
+\newcommand \Thetabf{\boldsymbol{\Theta}}
+\newcommand \Lambdabf{\boldsymbol{\Lambda}}
+\newcommand \Xibf{\boldsymbol{\Xi}}
+\newcommand \Pibf{\boldsymbol{\Pi}}
+
+
+\newcommand \pitx{\text{\pi}}
+
+
+\newcommand \abf{{\bf a}}
+\newcommand \bbf{{\bf b}}
+\newcommand \cbf{{\bf c}}
+\newcommand \dbf{{\bf d}}
+\newcommand \ebf{{\bf e}}
+\newcommand \fbf{{\bf f}}
+\newcommand \gbf{{\bf g}}
+\newcommand \hbf{{\bf h}}
+\newcommand \ibf{{\bf i}}
+\newcommand \jbf{{\bf j}}
+\newcommand \kbf{{\bf k}}
+\newcommand \lbf{{\bf l}}
+\newcommand \mbf{{\bf m}}
+\newcommand \nbf{{\bf n}}
+\newcommand \obf{{\bf o}}
+\newcommand \pbf{{\bf p}}
+\newcommand \qbf{{\bf q}}
+\newcommand \rbf{{\bf r}}
+\newcommand \sbf{{\bf s}}
+\newcommand \tbf{{\bf t}}
+\newcommand \ubf{{\bf u}}
+\newcommand \vbf{{\bf v}}
+\newcommand \wbf{{\bf w}}
+\newcommand \xbf{{\bf x}}
+\newcommand \ybf{{\bf y}}
+\newcommand \zbf{{\bf z}}
+\newcommand \rbfa{{\bf r}}
+\newcommand \xbfa{{\bf x}}
+\newcommand \ybfa{{\bf y}}
+\newcommand \Abf{{\bf A}}
+\newcommand \Bbf{{\bf B}}
+\newcommand \Cbf{{\bf C}}
+\newcommand \Dbf{{\bf D}}
+\newcommand \Ebf{{\bf E}}
+\newcommand \Fbf{{\bf F}}
+\newcommand \Gbf{{\bf G}}
+\newcommand \Hbf{{\bf H}}
+\newcommand \Ibf{{\bf I}}
+\newcommand \Jbf{{\bf J}}
+\newcommand \Kbf{{\bf K}}
+\newcommand \Lbf{{\bf L}}
+\newcommand \Mbf{{\bf M}}
+\newcommand \Nbf{{\bf N}}
+\newcommand \Obf{{\bf O}}
+\newcommand \Pbf{{\bf P}}
+\newcommand \Qbf{{\bf Q}}
+\newcommand \Rbf{{\bf R}}
+\newcommand \Sbf{{\bf S}}
+\newcommand \Tbf{{\bf T}}
+\newcommand \Ubf{{\bf U}}
+\newcommand \Vbf{{\bf V}}
+\newcommand \Wbf{{\bf W}}
+\newcommand \Xbf{{\bf X}}
+\newcommand \Ybf{{\bf Y}}
+\newcommand \Zbf{{\bf Z}}
+
+\newcommand \Cbb {\mathbb{C}}
+\newcommand \Ebb {\mathbb{E}}
+\newcommand \Rbb {\mathbb{R}}
+\newcommand \Zbb {\mathbb{Z}}
+
+\newcommand \Acal {\mathcal{A}}
+\newcommand \Bcal {\mathcal{B}}
+\newcommand \Ccal {\mathcal{C}}
+\newcommand \Gcal {\mathcal{G}}
+\newcommand \Mcal {\mathcal{M}}
+\newcommand \Ncal {\mathcal{N}}
+\newcommand \Pcal {\mathcal{P}}
+\newcommand \Qcal {\mathcal{Q}}
+\newcommand \Ycal {\mathcal{Y}}
+\newcommand \Ucal {\mathcal{U}}
+\newcommand \Scal {\mathcal{S}}
+\newcommand \Tcal {\mathcal{T}}
+\newcommand \Zcal {\mathcal{Z}}
+
+
+
+\newcommand \atx {\text{a}}
+\newcommand \btx {\text{b}}
+\newcommand \ctx {\text{c}}
+\newcommand \dtx {\text{d}}
+\newcommand \etx {\text{e}}
+\newcommand \ftx {\text{f}}
+\newcommand \gtx {\text{g}}
+\newcommand \htx {\text{h}}
+\newcommand \itx {\text{i}}
+\newcommand \jtx {\text{j}}
+\newcommand \ktx {\text{k}}
+\newcommand \ltx {\text{l}}
+\newcommand \mtx {\text{m}}
+\newcommand \ntx {\text{n}}
+\newcommand \otx {\text{o}}
+\newcommand \ptx {\text{p}}
+\newcommand \qtx {\text{q}}
+\newcommand \rtx {\text{r}}
+\newcommand \stx {\text{s}}
+\newcommand \ttx {\text{t}}
+\newcommand \utx {\text{u}}
+\newcommand \vtx {\text{v}}
+\newcommand \wtx {\text{w}}
+\newcommand \xtx {\text{x}}
+\newcommand \ytx {\text{y}}
+\newcommand \ztx {\text{z}}
+
+\newcommand \Atx {\text{A}}
+\newcommand \Btx {\text{B}}
+\newcommand \Ctx {\text{C}}
+\newcommand \Dtx {\text{D}}
+\newcommand \Etx {\text{E}}
+\newcommand \Ftx {\text{F}}
+\newcommand \Gtx {\text{G}}
+\newcommand \Htx {\text{H}}
+\newcommand \Itx {\text{I}}
+\newcommand \Jtx {\text{J}}
+\newcommand \Ktx {\text{K}}
+\newcommand \Ltx {\text{L}}
+\newcommand \Mtx {\text{M}}
+\newcommand \Ntx {\text{N}}
+\newcommand \Otx {\text{O}}
+\newcommand \Ptx {\text{P}}
+\newcommand \Qtx {\text{Q}}
+\newcommand \Rtx {\text{R}}
+\newcommand \Stx {\text{S}}
+\newcommand \Ttx {\text{T}}
+\newcommand \Utx {\text{U}}
+\newcommand \Vtx {\text{V}}
+\newcommand \Wtx {\text{W}}
+\newcommand \Xtx {\text{X}}
+\newcommand \Ytx {\text{Y}}
+\newcommand \Ztx {\text{Z}}
+
